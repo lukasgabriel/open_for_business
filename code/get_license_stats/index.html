@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Thesis Plots</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        /* A4 dimensions and center it */
+        .container {
+            width: 794px;  /* A4 width in pixels */
+            max-height: 90vh;
+            background-color: #ffffff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;  /* Allow scrolling if content is taller than max-height */
+        }
+        /* Styling for the iframes */
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Thesis Plots</h1>
+        <iframe src="plot1.html" title="Plot 1"></iframe>
+        <iframe src="interactive_plot.html" title="Plot 2"></iframe>
+        <iframe src="interactive_plot_multi.html" title="Plot 3"></iframe>
+        <!-- This is where I would have added more plots, graphs etc. If I had the time ＞﹏＜  -->
+    </div>
+</body>
+
+</html>
